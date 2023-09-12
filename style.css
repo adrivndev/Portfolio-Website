@@ -35,7 +35,8 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 15vh;
+    box-shadow: 10px 5px 5px rgb(235, 235, 235);
 }
 
 .nav-links {
@@ -54,7 +55,7 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .logo:hover {
@@ -120,4 +121,105 @@ a:hover {
 
 /* SECTIONS */
 
+section {
+    padding-top: 4vh;
+    height: 96 vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
 
+.section-container {
+    display: flex;
+
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+
+}
+
+.section__text__p1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.section__text__p2 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* BUTTONS */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-color-1 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+
+}
+
+.btn-color-1:hover {
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+    color: white;
+}
