@@ -35,7 +35,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
     box-shadow: 10px 5px 5px rgb(235, 235, 235);
 }
 
@@ -55,7 +55,8 @@ a:hover {
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    color: rgb(85, 85, 85);
 }
 
 .logo:hover {
@@ -122,15 +123,16 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
+    padding-top: 1vh;
     height: 96 vh;
-    margin: 0 10rem;
+    margin: 3rem 10rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
 
 .section-container {
     display: flex;
+    margin-top: 6rem;
 
 }
 
@@ -223,3 +225,52 @@ section {
     cursor: pointer;
     color: white;
 }
+
+/* ABOUT SECTION */
+
+#about {
+    position: static;
+}
+
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}       
+
+.about-containers, .about-details.container{
+    display: flex;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.about-pic {
+    border-radius: 2rem;
+
+}
+
+.details-container {
+    position: relative;
+    padding: 1.5rem;
+    left: 30%;
+    border-radius: 2rem;
+    border: rgb(85, 85, 85) solid 1px;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: 20rem;
+}
+
+.text-container {
+    margin-top: 2rem;
+    right: 8rem;
+    position: absolute;
+    padding: 1.5rem;
+    max-width: 50%;
+}
+
+
