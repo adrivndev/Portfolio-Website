@@ -280,7 +280,7 @@ section {
 
 #experience {
     position: relative;
-    padding-top: 2vh;
+    padding-top: 10vh;
 }
 
 .experience-sub-title {
@@ -334,8 +334,105 @@ article .icon {
     width: 50%;
 }
 
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+    padding-top: 4vh;
+    bottom: 100px;
+}
+
+.color-container {
+    border-color: rgb(85, 85, 85);
+    background: rgb(250, 250, 250);
+    transition: all 300ms ease;
+    
+    
+}
+
+.color-container:hover {
+    box-shadow: 10px 10px 10px 10px rgb(129, 129, 129);
+    position: relative;
+    bottom: 10px;
+}
 
 
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color:rgb(85, 85, 85);
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+    position: relative;
+    bottom: 100px;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border:rgb(85, 85, 85) 0.1rem solid;
+    border-color:rgb(53, 53, 53);
+    background:rgb(105, 165, 204);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    height: 15vh;
+    margin: 0 1rem;
+
+}
+
+footer nav {
+    box-shadow: none;
+}
+
+footer p {
+    text-align: center;
+}
 
 
 
