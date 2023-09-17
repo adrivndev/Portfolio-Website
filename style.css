@@ -141,6 +141,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    padding-top: 0;
 }
 
 .section__pic-container {
@@ -238,7 +239,10 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
+
 }
+
 
 .about-details.container {
     justify-content: center;
@@ -260,9 +264,17 @@ section {
     border-radius: 2rem;
     border: rgb(85, 85, 85) solid 2px;
     text-align: center;
+    flex-wrap: wrap;
 
 }
 
+#experience .details-container {
+    float: left;
+}
+
+.exp-cont {
+    clear: left;
+}
 
 .section-container {
     gap: 15rem;
@@ -338,7 +350,7 @@ article .icon {
 
 #projects {
     position: relative;
-    padding-top: 4vh;
+    padding-top: 10vh;
     bottom: 100px;
 }
 
@@ -433,6 +445,4 @@ footer nav {
 footer p {
     text-align: center;
 }
-
-
 
