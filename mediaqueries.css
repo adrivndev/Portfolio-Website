@@ -3,6 +3,12 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
+    #experience {
+        top: 10rem;
+    }
+    #projects {
+        top: 10rem;
+    }
     .about-containers {
         flex-wrap: wrap;
     }
@@ -12,10 +18,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
-    body {
-        max-width:  375px;
-    }
+@media screen and (max-width: 1300px) {
     #desktop-nav {
         display: none;
     }
@@ -93,3 +96,11 @@
     }
 }
 
+@media screen and (max-width: 1299px) {
+    .section-container .section__pic-container {
+        display: flex;
+        align-items: center;
+
+    }
+
+}
