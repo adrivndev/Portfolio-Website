@@ -6,6 +6,9 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    #contact {
+        padding-top: 0;
+    }
 }
 
 
@@ -63,7 +66,7 @@
         height: 40vh;
     }
     #profile {
-        height: 83vh;
+        height: 60vh;
         margin-bottom: 0;
         margin-top: 2rem;
     }
@@ -104,12 +107,14 @@
         width: auto;
         display: flex;
         justify-content: center;
+        margin-top: 5rem;
     }
     .section-container {
         justify-content: center;
     }
+
     #about {
-        top: 10rem;
+        top:12rem;
     }
     #contact {
         top: 2rem;
@@ -120,7 +125,22 @@
     #experience {
         top: 5rem;
     }
+    .contact-info-upper-container {
+        position: relative;
+        top: 2rem;
+    }
 
 }
 
+@media screen and (min-width: 350px) and (max-width: 376px) {
+    #profile {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 913px) {
+    #profile {
+        height: 50vh;
+    }
+}
 

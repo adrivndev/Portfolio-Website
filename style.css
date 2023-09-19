@@ -409,10 +409,10 @@ flex-direction: column;
     border-radius: 2rem;
     border:rgb(85, 85, 85) 0.1rem solid;
     border-color:rgb(53, 53, 53);
-    background:rgb(105, 165, 204);
     margin: 2rem auto;
     padding: 0.5rem;
 }
+
 
 .contact-info-container {
     display: flex;
